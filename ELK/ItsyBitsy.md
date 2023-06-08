@@ -45,4 +45,20 @@
   - So, the *source_ip* which is associated with the suspected user is found.
 
 ![image](https://github.com/rahulr98/TryHackMe/assets/116432525/5fc5f688-0b70-4f81-8dd9-d3d23261fb1e)
+--------------------------------------------------------------------------------------------------------------------------------------------------------------------
+**QUESTION-3**
 
+![image](https://github.com/rahulr98/TryHackMe/assets/116432525/47945e0e-e3f8-4311-97ab-4848dc58dad9)
+
+  ` Query- index:connection_logs AND user_agent:bitsadmin AND destination_ip : 104.23.99.190`
+
+  - In the Fields pane , click on user_agent field to view what user agent was used to download files.
+
+![image](https://github.com/rahulr98/TryHackMe/assets/116432525/4c7ae2eb-33be-4bde-bb9f-344b7074b67f)
+---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+**QUESTION-4**
+
+  `Query-  index:connection_logs AND user_agent:bitsadmin AND destination_ip :104.23.99.190 AND host: *`
+  
+![image](https://github.com/rahulr98/TryHackMe/assets/116432525/ebced04c-0b67-45ef-b2cf-b5df04ad89c5)
