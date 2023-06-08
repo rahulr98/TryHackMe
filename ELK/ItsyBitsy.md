@@ -24,9 +24,25 @@
 
 **QUESTION-2**
 
+  - Check *source_ip* to view the IP addresses associated with the logs.
+  - We cannot conclude that which IP is associated with the suspect user.
+
 ![image](https://github.com/rahulr98/TryHackMe/assets/116432525/0a13e544-7abe-4bff-b822-b8616bfd397b)
+
+  - Take IP which has fewer logs, and create a filter to view logs which is a product of that IP address.
+
+> Source_ip of suspected user - 192.166.65.54
+
+> _index:connection_logs AND source_ip:192.166.65.54
 
 ![image](https://github.com/rahulr98/TryHackMe/assets/116432525/ac2f6374-3b6a-444b-b95f-047be926a45f)
 
+  - To ensure if the IP is an C2C server, we can use *Alienvault's* Malware C2C database.
+
 ![image](https://github.com/rahulr98/TryHackMe/assets/116432525/bda9e915-bb14-4199-9e7b-fbb738044ef4)
+
+  - From the search result , we can see that the IP 104.23.99.198 is present in their database hence confirming our doubt.
+  - So, the *source_ip* which is associated with the suspected user is found.
+
+![image](https://github.com/rahulr98/TryHackMe/assets/116432525/5fc5f688-0b70-4f81-8dd9-d3d23261fb1e)
 
