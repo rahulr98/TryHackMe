@@ -18,5 +18,15 @@
 
   - We have to adjust the *time filter* to show the events happend on *March 2022*.
 
+> Number of events= 1482
+
 ![image](https://github.com/rahulr98/TryHackMe/assets/116432525/1c817d34-6401-4416-bb1b-478ddbd0eb28)
+
+**QUESTION-2**
+
+![image](https://github.com/rahulr98/TryHackMe/assets/116432525/0a13e544-7abe-4bff-b822-b8616bfd397b)
+
+![image](https://github.com/rahulr98/TryHackMe/assets/116432525/ac2f6374-3b6a-444b-b95f-047be926a45f)
+
+![image](https://github.com/rahulr98/TryHackMe/assets/116432525/bda9e915-bb14-4199-9e7b-fbb738044ef4)
 
