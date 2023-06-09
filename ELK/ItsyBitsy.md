@@ -22,6 +22,7 @@
 
 ![image](https://github.com/rahulr98/TryHackMe/assets/116432525/1c817d34-6401-4416-bb1b-478ddbd0eb28)
 
+--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 **QUESTION-2**
 
   - Check *source_ip* to view the IP addresses associated with the logs.
@@ -45,7 +46,9 @@
   - So, the *source_ip* which is associated with the suspected user is found.
 
 ![image](https://github.com/rahulr98/TryHackMe/assets/116432525/5fc5f688-0b70-4f81-8dd9-d3d23261fb1e)
+
 --------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
 **QUESTION-3**
 
 ![image](https://github.com/rahulr98/TryHackMe/assets/116432525/47945e0e-e3f8-4311-97ab-4848dc58dad9)
@@ -55,10 +58,38 @@
   - In the Fields pane , click on user_agent field to view what user agent was used to download files.
 
 ![image](https://github.com/rahulr98/TryHackMe/assets/116432525/4c7ae2eb-33be-4bde-bb9f-344b7074b67f)
----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
 **QUESTION-4**
 
   `Query-  index:connection_logs AND user_agent:bitsadmin AND destination_ip :104.23.99.190 AND host: *`
   
 ![image](https://github.com/rahulr98/TryHackMe/assets/116432525/ebced04c-0b67-45ef-b2cf-b5df04ad89c5)
+
+---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+**QUESTION-5**
+
+![image](https://github.com/rahulr98/TryHackMe/assets/116432525/cc5d4b01-8b80-4fff-8a08-a950d5c870cb)
+
+  - pastebin.com/yTg0Ah6a
+
+---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+**QUESTION-6**
+
+![image](https://github.com/rahulr98/TryHackMe/assets/116432525/65da6519-4833-4432-a9f6-5d4dcd7eb611)
+
+  - Visiting pastebin.com/yTg0Ah6a gives us the name of the file,
+
+![image](https://github.com/rahulr98/TryHackMe/assets/116432525/fe6cccb3-2e58-47ae-9e69-43fed99e4df7)
+
+---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+**QUESTION-7**
+
+![image](https://github.com/rahulr98/TryHackMe/assets/116432525/fd6ec0cf-59c5-42dc-8cfd-f8cb18c3b2d4)
+
+> Secret code - THM{SEC**E}
+
+![image](https://github.com/rahulr98/TryHackMe/assets/116432525/2bf98f95-8ab3-41d9-b315-4dd194280bed)
