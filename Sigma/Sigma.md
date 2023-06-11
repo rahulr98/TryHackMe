@@ -47,3 +47,35 @@
 
 > The definition of the search identifiers can comprise two data structures - *lists and maps* - which dictate the order in which the detection would be processed.
 
+### TASK-4  RULE WRITING AND CONVERSION
+
+**QUESTION-1**
+
+![image](https://github.com/rahulr98/TryHackMe/assets/116432525/44b8b690-aa62-487d-8189-3b3954deab41)
+
+> **Sigmac**:
+  _Sigmac_ is a Python-written tool that converts Sigma rules by matching the detection log source field values to the appropriate SIEM backend fields. As part of the Sigma repo (Advisable to clone the repo to get the tool and all the available rules published by the Sigma team), this tool allows for quick and easy conversion of Sigma rules from the command line. Below is a snippet of how to use the tool through its help command, and we shall display the basic syntax of using the tool by converting the AnyDesk rule we have written to the Splunk query.
+
+**QUESTION-2 and 3**
+
+> For answering 2nd and 3rd questions, we have to create _Anydesk sigma rule_ and convert it into a _Elastic Query_ for testing the log files.
+
+  - Use _Uncode.io_ universal sigma rule converter for converting sigma rule to elastic query.
+
+![1](https://github.com/rahulr98/TryHackMe/assets/116432525/3c32cb0d-1bab-4893-8037-0ce075afc5b0)
+
+![2](https://github.com/rahulr98/TryHackMe/assets/116432525/68001b95-6673-4da1-a90b-657b6dc691af)
+
+  - After converting the rules, We have to modify the elastic query with no regex charecters.
+  - The copy the query and search it in Elastic.
+  - We can find the _timestamp_ and the version of Anydesk.
+
+![image](https://github.com/rahulr98/TryHackMe/assets/116432525/6c68556f-859c-4541-9c09-d0528e6383d0)
+
+![3](https://github.com/rahulr98/TryHackMe/assets/116432525/74b25ef1-b3a1-4b00-8475-b7035e034047)
+
+![image](https://github.com/rahulr98/TryHackMe/assets/116432525/b5305781-f504-4412-a964-23f860921e8c)
+
+![4](https://github.com/rahulr98/TryHackMe/assets/116432525/acd89db7-b27e-4397-9098-5fa84a5c415f)
+
+
